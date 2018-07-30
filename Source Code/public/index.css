@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+body > div {
+    position: relative;
+
+    display: flex;
+    flex-flow: row;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #fafafa;
+
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(youthspark_logo_sullivan.png);
+    background-position: -20em -30em;
+}
+
+.side-bar {
+    position: absolute;
+    left: 0em;
+    display: flex;
+    flex-flow: column;
+    margin-right:20em;
+    background-color: #eaeaea;
+    height: calc(100vh - 20em);
+    /* width: 30em; */
+    padding: 10em;
+    padding-top: 10em;
+    margin: 0;
+}
+
+.side-bar img {
+    width: 10em;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2em;
+}
+
+form input {
+    width: 40em;
+}
+
+form textarea {
+    width: 40em;
+    height: 30em;
+}
